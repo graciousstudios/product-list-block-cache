@@ -39,7 +39,7 @@ class St_ProductListBlockCache_Block_Catalog_Product_List extends Mage_Catalog_B
 {
 
     /** Default cache lifetime in seconds. (86400 = 24 hours) */
-    const DEFAULT_CACHE_LIFETIME = 86400;
+    const DEFAULT_CACHE_LIFETIME = 600;
 
     /**
      * Returns array that uniquely identifies this product list in cache storage
